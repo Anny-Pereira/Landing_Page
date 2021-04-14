@@ -263,3 +263,134 @@ footer span {
     align-items: center;
     height: 100%;
 }
+
+@media (max-width: 420px) {
+
+    .grid {
+        width: 80vw;
+    }
+
+    /* banner */
+    .banner {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+    .img_banner {
+        width: auto;
+        height: 100%;
+    }
+
+    .texto_banner {
+        width: 380px;
+        height: auto;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    h1 {
+        width: 380px;
+        font-size: 67px;
+    }
+
+    .hr_banner {
+        width: 380px;
+        margin: 20px 0px;
+    }
+
+    .span_banner {
+        font-size: 31px;
+        margin: 10px 0px;
+    }
+
+    .mouse {
+        width: 45px;
+        margin-top: 30px;
+    }
+
+    /* sobre projetos */
+    .sobre_projetos {
+        /* height: auto nao funciona */
+        height: 1200px; 
+        margin-top: 60px;  
+    }
+
+    .h2_projetos {
+        font-size: 53px;
+        margin: 50px 0px;
+    }
+
+    .conteiner_projetos {
+        flex-direction: column;
+    }
+
+    .img_projetos {
+        width: 80vw;
+    }
+
+    .texto_sobre span {
+        font-size: 27px;
+        margin-top: 50px;
+    }
+
+    .h3_projetos {
+        width: auto;
+        font-size: 38px;
+        margin: 30px 0px;
+    }
+
+     .texto_sobre p {
+        width: auto;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    /* desafios */
+    .desafios {
+        height: 600px;
+    }
+
+     .espaçamento_caixas {
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+    }
+
+    /* endereço */
+    .endereço {
+        height: 850px; 
+    }
+
+    .conteudo_endereço {
+        justify-content: space-evenly;
+        height: 100%;
+    }    
+
+    .conteudo_endereço h2 {
+        width: unset;
+    } 
+
+    .caixa_endereço {
+        width: 80vw;
+    } 
+
+    .caixa_endereço p {
+        margin: 0;
+        padding: 50px 40px;
+    }
+
+    .box_position img {
+        position: unset;
+        margin: 0;
+        width: 80vw;
+        margin-bottom: 110px;
+    }
+
+    /* footer */
+    footer span {
+        width: 80vw;
+        text-align: center;
+    }
+
+}
