@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{ margin: 0;
+   padding: 0;
+   box-sizing: 0;
+}
+
+header { 
+    height: 60px;
+    width: 100%;
+    background-color: #F9003D;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.grid {
+    width: 1200px;
+    height: 100%;
+    /* background-color: brown; */
+    margin: 0 auto;
+}
+
+.espaçamento_header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.itens_header  {
+    width: 590px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens_header a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+
+.banner {
+    position: relative;
+}
+
+
+.img_banner {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.texto_banner {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 226px;
+    margin-left: 121px;
+}
+   
+h1 {
+    color: #ffffff;
+    font-size: 96px;
+    font-family: Bebas Neue;
+    font-weight: 500;
+    width: 600px;
+}
+
+.hr_banner {
+    width: 600px;
+    border: 1px solid #ffaf00 ;
+}
+
+.span_banner {
+    color: #F9003D;
+    font-size: 53px;
+    font-family: Courier New;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mouse {
+    width: 37px;
+    height: 80px;
+}
+
+.sobre_projetos {
+    height: 800px;
+    background-color: #080324;
+}
+
+.espaçamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.h2_projetos {
+    color: #F9003D;
+    font-size: 64px;
+    font-family: Bebas Neue;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.conteiner_projetos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto_sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sobre_projetos span {
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.h3_projetos {
+    width: 560px;
+    font-size: 64px;
+    color: #FFAF00;
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.texto_sobre p {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #ffffff;
+    width: 592px;
+}
+
+.img_desafios {
+    width: 100%;
+    height: 193px;
+}
+
+.desafios {
+    height: 193px;
+    width: 100%;
+    background-image: url(imagem-fundo-info.png);
+}
+
+.espaçamento_caixas {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.texto_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.desafios h2 {
+    font-family: Courier New;
+    font: size 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.caixa_desafios {
+    border: 1px solid #A259F7;
+    width: 289px;
+    height: 100px;
+}
+
+.caixa_desafios span {
+    font-family: Courier New;
+    font-size: 28px;
+    font-weight: bold;
+    color: #A259F7;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereço {
+    height: 515px;
+    background-image: url(imagem-fundo-endereco.png);
+}
+
+.box_position {
+    position: relative;
+}
+
+.conteudo_endereço {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.endereço h2 {
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #FFAF00;
+    width: 899px;
+}
+
+.caixa_endereço {
+    background-color: #010010;
+    border: 2px solid #340B65;
+    width: 899px;
+    height: 203px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.caixa_endereço p {
+    font-family: Courier New;
+    font-size: 24px;
+    line-height: 27px;
+    color: #A259F7;
+    width: 435px;
+    margin-left: 66px;
+}
+
+.box_position img {
+    position: absolute;
+    top: 0;
+    margin-top: 130px;
+    margin-left: 550px;
+}
+
+footer {
+    width: 100%;
+    height: 82px;
+    background-color: #F9003D;
+}
+
+footer span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
