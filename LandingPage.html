@@ -3,18 +3,23 @@
 <head>
     <title>Landing Page</title>
     <meta charset="UTF_8">
+    <script src="https://kit.fontawesome.com/c8490647d8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="grid espaçamento_header">
-            <nav class="itens_header">
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#desafios">Desafios</a>
-                <a href="#endereço">Endereço</a>
+            <nav id="itens_menu" class="itens_header">
+                <a href="#inicio" onclick="BotaoMenu()">Início</a>
+                <a href="#sobre" onclick="BotaoMenu()">Sobre</a>
+                <a href="#desafios" onclick="BotaoMenu()">Desafios</a>
+                <a href="#endereço" onclick="BotaoMenu()">Endereço</a>
+                <a href="#" onclick="BotaoMenu()">Fechar</a>
             </nav>
+            <a class="botao_menu" href="javascript:void(0)" onclick="BotaoMenu()">  
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </header>
     <main>
@@ -90,6 +95,19 @@
     <footer>
         <span  class="grid">Copyright © 2020 - Escola Senai de Informática</span>
     </footer>
+    <script>
+        function BotaoMenu() {
+            var menu = document.getElementById("itens_menu")
+            if (menu.style.display === "flex") {
+                menu.style.display = "none";
+             //quando o menu estiver em display:flex, o esconda
+            }
+            else {
+                menu.style.display = "flex";
+             //se o menu não estiviver em display:flex, o mostre
+            }
+        }
+    </script>
 </body>
 
 </html>
